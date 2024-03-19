@@ -1,6 +1,7 @@
 # Chapter 14 Handout
 
 [![Compile LaTeX](https://github.com/couscousdude/ch-14-handout/actions/workflows/check_release.yml/badge.svg)](https://github.com/couscousdude/ch-14-handout/actions/workflows/check_release.yml)
+
 Handout for Chapter 14, in LaTeX.
 
 ## How to compile locally
