@@ -1,10 +1,48 @@
 \input{lib/preamble}
+
+\setlength{\footskip}{1in}  % Adjust the footskip value
+
+\pagestyle{fancy}
 \addbibresource{citations.bib}
 
+\newcommand{\columnbreak}{{\par\vfill\null\pagebreak[4]}}
+
 \begin{document}
-\title{Chapter 14: Interest Rates and Monetary Policy}
-\author{Youwen Wu, Charles Krueger, Isaac Chen}
+\title{Interest Rates and Monetary Policy Examination}
+\author{This test will be proctored by Youwen Wu, Charles Krueger, Isaac Chen}
 \date{\today}
 \maketitle
+
+\input{src/footer}
+
+\input{src/mcq}
+
+\onecolumn
+\begin{adjustwidth}{1in}{1in}
+  \begin{center}
+    \textbf{
+      CHAPTER 14 \\
+      \medskip
+      SECTION II: FREE RESPONSE \\
+      \medskip
+      Total Time -- 15 minutes \\
+      \medskip
+      Reading Period -- 5 minutes \\
+      \medskip
+      Writing Period -- 10 minutes}
+  \end{center}
+\end{adjustwidth}
+
+\bigskip
+\input{src/frq}
+
+\onecolumn
+\sffamily
+\bfseries
+\input{src/end}
+
+
+\large
+\printbibliography
 
 \end{document}
