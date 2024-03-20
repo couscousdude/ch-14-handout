@@ -97,6 +97,31 @@ Circle the best answer.
         \end{enumerate}
 
         \columnbreak
-  \item Consider the following Phillips Curve
+        In 2020, researchers at the University of California, Berkeley
+        developed a new margin-based Condorcet voting algorithm called
+        Split Cycle, which avoids common pitfalls associated with
+        Condorcet voting methods such as ``spoiler effects'' and
+        ``strong no show paradoxes''~\cite{splitcycle}.
 
+        \bigskip
+
+        \begin{figure}[h]
+          \centering
+          \includegraphics[width=0.4\textwidth]{assets/splitcycle.png}
+          \label{fig:example}
+          \caption{Voting margins graph}
+        \end{figure}
+
+  \item Consider the voting margins matrix above.
+        \input{src/splitcycle}
+
+        The above code will run the split cycle algorithm on the margin
+        graph. Who will the Condorcet winners be?
+
+        \begin{enumerate}
+          \item $\begin{Bmatrix} 2 & 3 \end{Bmatrix}$
+          \item $\begin{Bmatrix} 0 & 2 \end{Bmatrix}$
+          \item $\begin{Bmatrix} 1 & 3 \end{Bmatrix}$
+          \item $\begin{Bmatrix} 2 & 1 \end{Bmatrix}$
+        \end{enumerate}
 \end{enumerate}
